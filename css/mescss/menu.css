@@ -108,7 +108,12 @@
  header>a>img {
      width: 47px;
      height: 47px;
+     position: absolute;
+     top: 20px;
+     left: 30px;
+
  }
+
 
 
 

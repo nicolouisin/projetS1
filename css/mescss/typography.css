@@ -1,9 +1,11 @@
- html {
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+
+html {
     font-size: 62.5%;
 }
 
  body {
-     font-family: "Unica One";
+     font-family: "Unica One", cursive;
      font-size: 1.6rem;
      line-height: 1.6;
      margin: 0 20px;
