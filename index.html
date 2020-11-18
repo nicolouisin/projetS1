@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -9,14 +9,16 @@
     <link rel="stylesheet" href="css/mescss/layout.css">
     <link rel="stylesheet" href="css/mescss/typography.css">
     <link rel="stylesheet" href="css/mescss/menu.css">
+    <link rel="stylesheet" href="css/lib/normalize.css">
 </head>
-<body>
+<body class="menu-open">
  <header>
      <a href=""><img src="img/NOUVEAU%20LOGO%20.png" alt="Logo du site"></a>
-     <div class="nav-toggle">
+     <div class="nav-toggle" onclick="document.body.classList.toggle('menu-open')">
          <div class="nav-toggle-bar"></div>
      </div>
-     <nav>
+     <nav class="menu">
+
          <ul>
              <li><a href="">Le monde extraordinaire d'Oz</a></li>
              <li><a href="">Des jeux en ligne extrêmement polluant</a></li>
