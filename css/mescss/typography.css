@@ -1,8 +1,8 @@
+/*Page d'acceuil*/
 
-
-html {
-    font-size: 62.5%;
-}
+ html {
+     font-size: 62.5%;
+ }
 
  body {
      font-family: "Unica One", cursive;
@@ -14,3 +14,11 @@ html {
  a {
      text-decoration: none;
  }
+
+ main>h1 {
+    color: black;
+    font-size: 57px;
+}
+
+
+

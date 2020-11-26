@@ -1,0 +1,15 @@
+ /*Accueil*/
+
+ .image-accueil img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     position: relative;
+     top: 120px;
+ }
+
+ .logo img {
+     position: absolute;
+     top: 18px;
+     left: 18px;
+ }

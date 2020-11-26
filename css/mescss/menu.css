@@ -103,16 +103,23 @@
  .menu-open .menu li:nth-child(n+6) { transition-delay: .5s; }
  .menu-open .menu li:nth-child(n+7) { transition-delay: .5s; }
 
- /*Logo*/
+/*Mise en page*/
 
- header>a>img {
-     width: 47px;
-     height: 47px;
-     position: absolute;
-     top: 20px;
-     left: 30px;
-
+ .menu-open .menu li {
+     font-size: 20px;
+     line-height: 60px;
  }
+
+ .menu-open .menu li:nth-last-child(-n+2) {
+     font-size: 15px;
+     line-height: 40px;
+     margin-top: -40px;
+ }
+
+ 
+ 
+
+
 
 
 
