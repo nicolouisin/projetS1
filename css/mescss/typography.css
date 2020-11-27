@@ -1,24 +1,37 @@
 /*Page d'acceuil*/
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Orbitron&display=swap');
 
  html {
      font-size: 62.5%;
  }
 
- body {
-     font-family: "Unica One", cursive;
-     font-size: 1.6rem;
-     line-height: 1.6;
-     margin: 0 20px;
- }
-
  a {
      text-decoration: none;
+     font-family: "Unica One", cursive;
  }
 
- main>h1 {
-    color: black;
-    font-size: 57px;
+.introduction p:nth-child(1) {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 1.6;
+    margin: 0 20px;
+    color: #707070;
 }
+
+.introduction p:nth-child(2) {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    margin: 0 20px;
+    color: #707070;
+}
+
+
+
+
 
 
 
