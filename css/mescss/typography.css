@@ -11,36 +11,7 @@
      text-decoration: none;
      font-family: "Unica One", cursive;
  }
-/*Titre*/
- .titre {
-     display: inline-block;
-     position: relative;
- }
 
- .titre h1:nth-child(1) {
-     position: absolute;
-     text-align: center;
-     font-family: "Unica One", cursive;
-     margin: 0 auto;
-     left: 0;
-     right: 0;
-     top: 10%;
-     color: white;
-     width: 90%;
-
- }
- .titre h1:nth-child(2) {
-    font-size: 4.7rem;
-     font-weight: lighter;
-}
- .titre h4 {
-    font-size: 1.7rem;
-    font-weight: lighter;
-}
- .titre h3 {
-    font-size: 2.3rem;
-    font-weight: lighter;
-}
 
  .introduction p:first-child {
     font-family: 'Open Sans', sans-serif;
@@ -61,6 +32,13 @@
     color: #707070;
      margin-top: 1rem;
 }
+
+/*Footer*/
+
+ footer>a {
+     font-family: 'Open Sans', sans-serif;
+ }
+
 
 
 
