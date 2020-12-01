@@ -1,0 +1,52 @@
+/*Introduction-rectangle*/
+
+.menu-open .menu li {
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.menu-open .menu li:nth-last-child(-n+2) {
+    font-size: 15px;
+    line-height: 40px;
+    margin-top: -40px;
+}
+
+.rectangle {
+    width:328px;
+    height:291px;
+    margin-top: 125px;
+    background: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 10px 10px gray;
+    z-index: 2;
+}
+
+/*Footer*/
+
+.decoration {
+     margin-left: auto;
+     margin-right: auto;
+     background-color: #707070;
+     width: 100%;
+     height: 212px;
+
+ }
+
+/*lettrine 1er article*/
+
+#lettrine{
+    width : 150px;
+    font-family : 'Open Sans', sans-serif;
+    font-size : 1.5rem;
+
+}
+#lettrine:first-letter {
+    color: #963C3E;
+    font-family : "Unica One", cursive;
+    font-size : 6.7rem;
+    padding:5px 30px 20px 0;
+    margin-right:5px;
+    float : left;
+}
