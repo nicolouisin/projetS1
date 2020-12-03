@@ -39,6 +39,46 @@
      font-family: 'Open Sans', sans-serif;
  }
 
+ /*1er article*/
+
+.article1 h1 {
+    font-family: "Unica One", cursive;
+    color: #963C3E;
+    font-size: 3.3rem;
+}
+
+.article1 h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #963C3E;
+    font-size: 1.8rem;
+}
+
+.article1 p {
+    font-family: 'Open Sans', sans-serif;
+    color: #707070;
+    font-size: 1.5rem;
+}
+
+ .chapeau {
+     font-family: 'Open Sans', sans-serif;
+     color: #707070;
+     font-size: 1.5rem;
+     font-weight: bold;
+     font-style: italic;
+ }
+
+ .article p:last-child {
+     text-decoration: #963C3E;
+ }
+
+ .article1 h3 {
+     font-family: "Unica One", cursive;
+     color: #707070;
+     font-size: 3.3rem;
+ }
+
+
+
 
 
 

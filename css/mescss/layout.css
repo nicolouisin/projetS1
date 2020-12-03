@@ -103,5 +103,69 @@
      display: flex;
      align-items: center;
      justify-content: center;
-     padding-top: 20px;
+     padding-top: 10px;
  }
+
+ .rea p:nth-child(1){
+     font-size: 0.8rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-family: 'Open Sans', sans-serif;
+     color: white;
+
+
+ }
+
+ .rea p:nth-child(2){
+     font-size: 0.8rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-family: 'Open Sans', sans-serif;
+     color: white;
+
+ }
+
+
+ /*Article1*/
+
+ .article1 {
+     padding-top: 100px;
+     line-height: 2.5rem;
+
+
+ }
+
+ .article1 img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto
+ }
+
+ /*Article2*/
+
+
+ /*ArticleSc*/
+
+ .icone-back img {
+     position: absolute;
+     top: 13px;
+     left: -13px;
+ }
+
+ .articlesc {
+     padding-top: 100px;
+     line-height: 2.5rem;
+
+
+ }
+
+ .articlesc img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto
+ }
+
+
+ /*Article1*/
