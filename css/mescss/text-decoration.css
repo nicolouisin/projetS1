@@ -12,16 +12,13 @@
     z-index: 2;
 }
 
+
 .menu-open .menu li {
-    font-size: 20px;
+    font-size: 2rem;
     line-height: 60px;
 }
 
-.menu-open .menu li:nth-last-child(-n+2) {
-    font-size: 15px;
-    line-height: 40px;
-    margin-top: -40px;
-}
+
 
 
 

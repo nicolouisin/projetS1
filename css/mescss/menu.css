@@ -85,7 +85,7 @@
      margin-bottom: 20px;
      transform: translateX(30px);
      opacity: 0;
-     transition: all .4s ease;
+     transition: all .3s ease;
  }
 
  .menu a {
@@ -104,7 +104,6 @@
  .menu-open .menu li:nth-child(n+5) { transition-delay: .5s; }
  .menu-open .menu li:nth-child(n+6) { transition-delay: .55s; }
  .menu-open .menu li:nth-child(n+7) { transition-delay: .6s; }
- .menu-open .menu li:nth-child(n+8) { transition-delay: .65s; }
 
 
 
