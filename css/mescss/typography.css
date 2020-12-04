@@ -98,7 +98,7 @@
     color: #707070;
 }
 
-/*Formulaire*/
+/*Formulaire de contact*/
 
 .formulaire h1 {
     font-family: "Unica One", cursive;
@@ -116,6 +116,23 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5rem;
     color: #707070;
+}
+
+
+/*A propos*/
+
+.alignleft {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    color: #707070;
+
+}
+
+.texte-sous {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    color: #707070;
+    line-height: 2.5rem;
 }
 
 
