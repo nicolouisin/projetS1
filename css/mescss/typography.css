@@ -98,6 +98,26 @@
     color: #707070;
 }
 
+/*Formulaire*/
+
+.formulaire h1 {
+    font-family: "Unica One", cursive;
+    font-size: 4rem;
+    color: #963C3E;
+    padding-left: 25px;
+}
+
+.formulaire ul>li {
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+}
+
+.formulaire p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #707070;
+}
+
 
 
 

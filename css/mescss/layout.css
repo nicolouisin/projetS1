@@ -136,7 +136,6 @@
      font-family: 'Open Sans', sans-serif;
      color: white;
 
-
  }
 
  .rea p:nth-child(2){
@@ -164,34 +163,6 @@
      margin-left: auto;
      margin-right: auto
  }
-
- /*Article2*/
-
-
- /*ArticleSc*/
-
- .icone-back img {
-     position: absolute;
-     top: 13px;
-     left: -13px;
- }
-
- .articlesc {
-     padding-top: 100px;
-     line-height: 2.5rem;
-
-
- }
-
- .articlesc img {
-     display: block;
-     margin-left: auto;
-     margin-right: auto
- }
-
-
- /*Article1*/
-
  .article1 {
      margin-left: 40px;
      margin-right: 40px;
@@ -231,6 +202,34 @@
      scroll-snap-align: center;
  }
 
+
+
+ /*Article2*/
+
+
+ /*ArticleSc*/
+
+ .icone-back img {
+     position: absolute;
+     top: 13px;
+     left: -13px;
+ }
+
+ .articlesc {
+     padding-top: 100px;
+     line-height: 2.5rem;
+
+
+ }
+
+ .articlesc img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto
+ }
+
+
+ /*Article 3*/
 
 
  /*Autres projets*/
@@ -297,6 +296,66 @@
      padding-right: 100px;
  }
 
+html {
+    overflow-x: hidden;
+}
 
+/*Formulaire*/
 
+.titre-formulaire {
+    font-family: "Unica One", cursive;
+    font-size: 4rem;
+    color: #963C3E;
+    margin-bottom: 80px;
+}
+
+.form {
+    padding-left: 30px;
+
+}
+
+.form p {
+    margin: 0;
+    padding: 0;
+    color: #707070;
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form input {
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.form input[type=text], .form input[type=number], .form input[type=email] {
+    border: none;
+    border-bottom: 1px solid #707070;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    display: inline;
+    color: #707070;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+::placeholder {
+    color: #707070;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+
+.form input[type=submit] {
+    border: none;
+    height: 40px;
+    outline: none;
+    font-size: 1.5rem;
+    background-color: #949894;
+    border-radius: 8px;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
 
