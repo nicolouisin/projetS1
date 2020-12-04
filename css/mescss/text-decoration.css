@@ -1,16 +1,5 @@
 /*Introduction-rectangle*/
 
-.menu-open .menu li {
-    font-size: 20px;
-    line-height: 60px;
-}
-
-.menu-open .menu li:nth-last-child(-n+2) {
-    font-size: 15px;
-    line-height: 40px;
-    margin-top: -40px;
-}
-
 .rectangle {
     width:328px;
     height:291px;
@@ -22,6 +11,19 @@
     box-shadow: 0 10px 10px gray;
     z-index: 2;
 }
+
+.menu-open .menu li {
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.menu-open .menu li:nth-last-child(-n+2) {
+    font-size: 15px;
+    line-height: 40px;
+    margin-top: -40px;
+}
+
+
 
 /*Footer*/
 
@@ -101,3 +103,6 @@
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
     inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
+
+
+

@@ -77,8 +77,26 @@
      font-size: 3.3rem;
  }
 
+/*Autres Projets*/
 
+.marge-gauche ul {
+    list-style-type: none;
 
+}
+
+.marge-gauche ul>li:nth-child(2n+1) {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #707070;
+}
+
+.marge-gauche ul>li:nth-child(2n) {
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #707070;
+}
 
 
 
