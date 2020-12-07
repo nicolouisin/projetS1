@@ -79,24 +79,22 @@
 
 /*Autres Projets*/
 
-.marge-gauche ul {
-    list-style-type: none;
-
+.affiches-textes h1{
+    font-family: "Unica One", cursive;
+    font-size: 4rem;
+    color: #963C3E;
 }
 
-.marge-gauche ul>li:nth-child(2n+1) {
-    font-weight: bold;
+.descriptif {
+    font-family: 'Open Sans', sans-serif;
+    color: #707070;
+    font-size: 1.2rem;
+}
+
+.descriptif strong {
     font-style: italic;
-    font-size: 1.2rem;
-    font-family: 'Open Sans', sans-serif;
-    color: #707070;
 }
 
-.marge-gauche ul>li:nth-child(2n) {
-    font-size: 1.2rem;
-    font-family: 'Open Sans', sans-serif;
-    color: #707070;
-}
 
 /*Formulaire de contact*/
 

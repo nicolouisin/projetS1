@@ -1,4 +1,8 @@
- /*Accueil*/
+html {
+    overflow-x: hidden;
+}
+
+/*Accueil*/
 
  .image-accueil img {
      display: block;
@@ -225,71 +229,38 @@
 
  /*Autres projets*/
 
- body>h1 {
-     padding-left: 30px;
-     padding-top: 130px;
- }
+.affiches-textes h1 {
+    margin-bottom: 120px;
 
-
-
- .photo-gauche img {
-     padding-top: 110px;
-     padding-left: 30px;
- }
-
-
- .texte-droit p:nth-child(1) {
-     float: right;
-     list-style-type: none;
-     padding-top: 170px;
-     padding-right: 100px;
- }
-
-.texte-droit p:nth-child(2) {
-     float: right;
-     list-style-type: none;
-     padding-top: 170px;
-     padding-right: 100px;
- }
-
-.texte-droit p:nth-child(3) {
-     float: right;
-     list-style-type: none;
-     padding-top: 170px;
-     padding-right: 100px;
- }
-
-.texte-droit p:nth-child(4) {
-     float: right;
-     list-style-type: none;
-     padding-top: 170px;
-     padding-right: 100px;
- }
-
-.texte-droit p:nth-child(5) {
-     float: right;
-     list-style-type: none;
-     padding-top: 170px;
-     padding-right: 100px;
- }
-
-.texte-droit p:nth-child(6) {
-     float: right;
-     list-style-type: none;
-     padding-top: 170px;
-     padding-right: 100px;
- }
-
-.texte-droit p:nth-child(7) {
-     float: right;
-     list-style-type: none;
-     padding-top: 170px;
-     padding-right: 100px;
- }
-
-html {
-    overflow-x: hidden;
 }
+.descriptif {
+    clear: both;
+}
+
+.affiches-textes {
+    margin-left: 45px;
+    margin-top: 180px;
+    margin-bottom: 200px;
+}
+
+.descriptif img {
+    float: left;
+    margin-bottom: 150px;
+
+}
+
+.descriptif span {
+    padding-top: 70px;
+    margin-left: 150px;
+    display: block;
+}
+
+.autres-projets {
+    margin-top: 250px;
+}
+
+
+
 
 /*Formulaire*/
 
@@ -298,6 +269,8 @@ html {
     font-size: 4rem;
     color: #963C3E;
     margin-bottom: 80px;
+    margin-top: 150px;
+    margin-left: 25px;
 }
 
 .form {
@@ -361,7 +334,7 @@ html {
      font-size: 4rem;
      color: #963C3E;
      margin-left: 25px;
-     margin-top: -30px;
+     margin-top: 0;
      margin-bottom: 70px;
  }
 
@@ -387,4 +360,5 @@ p.alignleft {
      padding-top: 20px;
 
 }
+
 
