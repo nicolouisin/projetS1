@@ -71,10 +71,6 @@
 
 }
 
-.styled:hover {
-    background-color: #949894;
-}
-
 .styled:active {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
     inset 2px 2px 3px rgba(0, 0, 0, .6);
@@ -94,14 +90,12 @@
 
 }
 
-.styled2:hover {
-    background-color: #963C3E;
-}
-
 .styled2:active {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
     inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
+
+
 
 
 

@@ -41,12 +41,6 @@
 
  /*1er article*/
 
-.article1 h1 {
-    font-family: "Unica One", cursive;
-    color: #963C3E;
-    font-size: 3.3rem;
-}
-
 .article1 h2 {
     font-family: 'Open Sans', sans-serif;
     color: #963C3E;
@@ -71,11 +65,56 @@
      text-decoration: #963C3E;
  }
 
- .article1 h3 {
-     font-family: "Unica One", cursive;
-     color: #707070;
-     font-size: 3.3rem;
+ .titre-galerie {
+     padding-left: 40px;
+     margin-top: 60px;
+     margin-bottom: -40px;
+
  }
+
+ .article1 a {
+     color: #963C3E;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 1.6rem;
+     text-decoration: underline;
+ }
+
+ .article1 strong {
+    color: #BB4B4D;
+}
+
+
+ /*2e article*/
+
+ .article2 h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #963C3E;
+    font-size: 1.8rem;
+}
+
+ .article2 p {
+    font-family: 'Open Sans', sans-serif;
+    color: #707070;
+    font-size: 1.5rem;
+}
+
+ .chapeau2 {
+     font-family: 'Open Sans', sans-serif;
+     color: #707070;
+     font-size: 1.5rem;
+     font-weight: bold;
+     font-style: italic;
+ }
+
+ .article2 strong {
+    color: #BB4B4D;
+}
+
+
+
+
+
+ /*3e article*/
 
 /*Autres Projets*/
 

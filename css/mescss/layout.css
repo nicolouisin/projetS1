@@ -2,6 +2,11 @@ html {
     overflow-x: hidden;
 }
 
+header {
+    overflow-y: hidden;
+}
+
+
 /*Accueil*/
 
  .image-accueil img {
@@ -148,23 +153,34 @@ html {
 
  .article1 {
      padding-top: 100px;
-     line-height: 2.5rem;
-
+     line-height: 3rem;
+     margin-left: 50px;
+     margin-right: 50px;
 
  }
 
  .article1 img {
      display: block;
      margin-left: auto;
-     margin-right: auto
- }
- .article1 {
-     margin-left: 40px;
-     margin-right: 40px;
+     margin-right: auto;
+     margin-bottom: 100px;
+     margin-top: 100px;
  }
 
- .article1 h1 {
-     padding-left: 20px;
+ .article1 h2 {
+     margin-top: 100px;
+     margin-bottom: 100px;
+
+ }
+
+ .titre-article1 {
+     margin-left: 20px;
+     margin-top: 60px;
+     margin-bottom: 60px;
+ }
+
+ .chapeau {
+     margin-bottom: 60px;
  }
 
  .carousel img {
@@ -199,7 +215,45 @@ html {
 
 
 
+
+
  /*Article2*/
+
+ .article2 {
+     margin-top: 170px;
+     line-height: 3rem;
+     margin-left: 50px;
+     margin-right: 50px;
+ }
+
+ .titre-article2 {
+     margin-left: -20px;
+     margin-bottom: 60px;
+ }
+
+ .article2 h2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+
+.article2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+ .styled {
+     display: block;
+     margin : auto;
+     margin-top: 50px;
+     margin-bottom: 50px;
+ }
+
+
 
 
  /*ArticleSc*/
@@ -226,6 +280,39 @@ html {
 
  /*Article 3*/
 
+.article3 {
+    margin-top: 170px;
+    line-height: 3rem;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.titre-article3 {
+    margin-left: -20px;
+    margin-bottom: 60px;
+}
+
+.article3 h2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+
+.article3 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.styled {
+    display: block;
+    margin : auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
  /*Autres projets*/
 
@@ -262,7 +349,7 @@ html {
 
 
 
-/*Formulaire*/
+/*Formulaire Contact*/
 
 .titre-formulaire {
     font-family: "Unica One", cursive;
@@ -360,5 +447,7 @@ p.alignleft {
      padding-top: 20px;
 
 }
+
+
 
 
