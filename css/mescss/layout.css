@@ -2,10 +2,6 @@ html {
     overflow-x: hidden;
 }
 
-header {
-    overflow-y: hidden;
-}
-
 
 /*Accueil*/
 
@@ -213,8 +209,12 @@ header {
      scroll-snap-align: center;
  }
 
-
-
+.styled4 {
+    display: block;
+    margin : auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 
  /*Article2*/
@@ -251,6 +251,10 @@ header {
      margin : auto;
      margin-top: 50px;
      margin-bottom: 50px;
+ }
+
+ .boutons-article2 {
+     margin-top: 30px;
  }
 
  /*ArticleSc*/

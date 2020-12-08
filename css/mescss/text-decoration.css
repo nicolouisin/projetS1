@@ -60,15 +60,16 @@
 .styled {
     border: 0;
     line-height: 2.5;
-    padding: 0 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-size: 1rem;
     text-align: center;
     color: #fff;
     border-radius: 5px;
     background-color: #963C3E;
     font-family: 'Orbitron', sans-serif;
-
-
+    margin-left: 0;
+    margin-bottom: -35px;
 }
 
 .styled:active {
@@ -79,7 +80,10 @@
 .styled2, .styled3 {
     border: 0;
     line-height: 2.5;
-    padding: 0 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-size: 1rem;
     text-align: center;
     color: #fff;
@@ -95,6 +99,54 @@
     inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 
+
+.styled4 {
+    border: 0;
+    line-height: 2.5;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #949894;
+    font-family: 'Orbitron', sans-serif;
+
+
+}
+
+.styled4:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+ .styled4 img {
+     margin: 0;
+ }
+
+.styled5 {
+    border: 0;
+    line-height: 2.5;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #949894;
+    font-family: 'Orbitron', sans-serif;
+    margin-left: 150px;
+    margin-bottom: 60px;
+}
+
+.styled5:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled5 img {
+    margin: 0;
+}
 
 
 
