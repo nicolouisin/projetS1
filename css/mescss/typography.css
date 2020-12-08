@@ -73,7 +73,7 @@
  }
 
  .article1 a {
-     color: #963C3E;
+     color: #BB4B4D;
      font-family: 'Open Sans', sans-serif;
      font-size: 1.6rem;
      text-decoration: underline;
@@ -111,10 +111,60 @@
 }
 
 
+ /*ArticleSc*/
+
+.articlesc h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #963C3E;
+    font-size: 1.8rem;
+}
+
+.articlesc p {
+    font-family: 'Open Sans', sans-serif;
+    color: #707070;
+    font-size: 1.5rem;
+}
+
+.articlesc a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    color: #BB4B4D;
+}
+
+.articlesc strong {
+    color: #BB4B4D;
+}
 
 
 
  /*3e article*/
+
+.article3 h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #963C3E;
+    font-size: 1.8rem;
+}
+
+.article3 p {
+    font-family: 'Open Sans', sans-serif;
+    color: #707070;
+    font-size: 1.5rem;
+}
+
+.article3 strong {
+    color: #BB4B4D;
+}
+
+.article3 p>a {
+    color: #BB4B4D;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: underline;
+}
+
+.article3 p>i {
+    font-weight: bold;
+}
 
 /*Autres Projets*/
 

@@ -253,10 +253,9 @@ header {
      margin-bottom: 50px;
  }
 
-
-
-
  /*ArticleSc*/
+
+
 
  .icone-back img {
      position: absolute;
@@ -265,17 +264,29 @@ header {
  }
 
  .articlesc {
-     padding-top: 100px;
-     line-height: 2.5rem;
+     padding-top: 160px;
+     line-height: 3rem;
+     margin-left: 50px;
+     margin-right: 50px;
+ }
 
-
+ .articlesc .chapeau {
+     margin-top: 40px;
+     margin-bottom: 80px;
  }
 
  .articlesc img {
      display: block;
      margin-left: auto;
-     margin-right: auto
+     margin-right: auto;
+     margin-bottom: 100px;
+     margin-top: 100px;
  }
+
+ .articlesc a {
+     margin-left: 40px;
+ }
+
 
 
  /*Article 3*/
@@ -292,7 +303,7 @@ header {
     margin-bottom: 60px;
 }
 
-.article3 h2 {
+ .article3 h2 {
     margin-top: 100px;
     margin-bottom: 100px;
 
@@ -307,12 +318,16 @@ header {
     margin-top: 100px;
 }
 
-.styled {
-    display: block;
-    margin : auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+ .boutons-article3 {
+    text-align: center;
+     margin-top: 50px;
+     margin-bottom: 50px;
+
 }
+
+ .boutons-article3 .styled3 {
+     margin-left: 60px;
+ }
 
  /*Autres projets*/
 
