@@ -2,7 +2,6 @@ html {
     overflow-x: hidden;
 }
 
-
 /*Accueil*/
 
  .image-accueil img {
@@ -268,6 +267,22 @@ html {
  .boutons-article2 {
      margin-top: 40px;
      margin-bottom: 30px;
+ }
+
+ article>h3 {
+     font-family: "Unica One", cursive;
+     font-size: 3.5rem;
+     margin-top: 100px;
+     font-weight: lighter;
+     color: #963C3E;
+ }
+
+ .visio-trottoir {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 120px;
+     margin-top: 70px;
  }
  /*ArticleSc*/
 
