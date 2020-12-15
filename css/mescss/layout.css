@@ -1,14 +1,6 @@
 html {
     overflow-x: hidden;
 }
- /*Header fixe*/
- .haut {
-     background-color: white;
-     position:fixed;
-     top: 0; /* vaut mieux fixer les valeurs par défaut pour ne pas avoir de mauvaises surprises */
-     left: 0;
-     right: 0;
- }
 
 /*Accueil*/
 
@@ -79,7 +71,7 @@ html {
      margin-top: 100px;
      font-weight: lighter;
      color: #963C3E;
-     padding-left: 15px;
+     padding-left: 10px;
  }
 
  .ba-film {
